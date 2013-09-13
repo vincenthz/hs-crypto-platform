@@ -1,0 +1,66 @@
+Name:                crypto-platform
+Version:             2013.9.0
+Description: 
+    A set of packages that provides an extensive coverage of cryptographic functions
+    and various standards related to cryptography
+    .
+    The goals are to provide a consistant platform, while still being easy to use.
+    .
+    Current coverage is:
+    .
+    * public key cryptography (RSA, DSA, DH)
+    * cryptographic ciphers (AES, RC4, DES, 3DES, Blowfish, Camellia)
+    * cryptographic random generator
+    * cryptographic hashes (MD, SHA1, SHA-2, SHA-3, etc), siphash.
+    * ASN.1
+    * X.509 certificate and CRL
+    .
+    The platform modules re-export the most used features, but others
+    modules are available in their respective packages.
+
+License:             BSD3
+License-file:        LICENSE
+Copyright:           Vincent Hanquez <vincent@snarc.org>
+Author:              Vincent Hanquez <vincent@snarc.org>
+Maintainer:          Vincent Hanquez <vincent@snarc.org>
+Synopsis:            Crypto platform meta package.
+Build-Type:          Simple
+Category:            Cryptography
+stability:           experimental
+Cabal-Version:       >=1.8
+Homepage:            http://github.com/vincenthz/hs-crypto-platform
+data-files:          README.md
+
+Library
+  Build-Depends:     base >= 3 && < 5
+                   , securemem
+                   -- random
+                   , crypto-random
+                   , cprng-aes
+                   -- symmetric ciphers
+                   , crypto-cipher-types
+                   , cipher-aes
+                   , cipher-blowfish
+                   , cipher-des
+                   , cipher-camellia
+                   , cipher-rc4
+                   -- public key cryptography
+                   , crypto-numbers
+                   , crypto-pubkey-types
+                   , crypto-pubkey
+                   -- hash
+                   , cryptohash
+                   , siphash
+                   -- ASN.1
+                   , asn1-encoding
+                   , asn1-types
+                   -- X.509
+                   , x509
+                   , x509-store
+                   , x509-system
+                   , x509-validation
+  Exposed-modules:   Crypto.Platform
+
+source-repository head
+  type: git
+  location: git://github.com/vincenthz/hs-crypto-platform
