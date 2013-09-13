@@ -1,0 +1,39 @@
+[submodule "hs-securemem"]
+	path = hs-securemem
+	url = https://github.com/vincenthz/hs-securemem
+[submodule "hs-crypto-random"]
+	path = hs-crypto-random
+	url = https://github.com/vincenthz/hs-crypto-random
+[submodule "hs-cprng-aes"]
+	path = hs-cprng-aes
+	url = https://github.com/vincenthz/hs-cprng-aes
+[submodule "hs-crypto-cipher"]
+	path = hs-crypto-cipher
+	url = https://github.com/vincenthz/hs-crypto-cipher
+[submodule "hs-cipher-aes"]
+	path = hs-cipher-aes
+	url = https://github.com/vincenthz/hs-cipher-aes
+[submodule "hs-cipher-rc4"]
+	path = hs-cipher-rc4
+	url = https://github.com/vincenthz/hs-cipher-rc4
+[submodule "hs-crypto-numbers"]
+	path = hs-crypto-numbers
+	url = https://github.com/vincenthz/hs-crypto-numbers
+[submodule "hs-crypto-pubkey-types"]
+	path = hs-crypto-pubkey-types
+	url = https://github.com/vincenthz/hs-crypto-pubkey-types
+[submodule "hs-crypto-pubkey"]
+	path = hs-crypto-pubkey
+	url = https://github.com/vincenthz/hs-crypto-pubkey
+[submodule "hs-cryptohash"]
+	path = hs-cryptohash
+	url = https://github.com/vincenthz/hs-cryptohash
+[submodule "hs-siphash"]
+	path = hs-siphash
+	url = https://github.com/vincenthz/hs-siphash
+[submodule "hs-asn1"]
+	path = hs-asn1
+	url = https://github.com/vincenthz/hs-asn1
+[submodule "hs-certificate"]
+	path = hs-certificate
+	url = https://github.com/vincenthz/hs-certificate
