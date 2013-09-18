@@ -68,7 +68,7 @@ Asymettric ciphers (i.e. public key)
     * Basic DH (Diffie Hellman) support
     * ElGamal support
 
-random and pseudo random
+Random and pseudo random
 ------------------------
 
 Random and Pseudo random generation
