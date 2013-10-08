@@ -34,34 +34,38 @@ data-files:          README.md
 Library
   Build-Depends:     base >= 3 && < 5
                    , byteable
-                   , pem
+                   , pem >= 0.1 && < 0.3
                    -- base memory types
-                   , securemem
+                   , securemem >= 0.1 && < 0.2
                    -- random
-                   , crypto-random
-                   , cprng-aes
+                   , crypto-random >= 0.0 && < 0.1
+                   , cprng-aes >= 0.5 && < 0.6
                    -- symmetric ciphers
-                   , crypto-cipher-types
-                   , cipher-aes
-                   , cipher-blowfish
-                   , cipher-des
-                   , cipher-camellia
-                   , cipher-rc4
+                   , crypto-cipher-types >= 0.0 && < 0.1
+                   , crypto-cipher-benchmarks >= 0.0 && < 0.1
+                   , crypto-cipher-tests >= 0.0 && < 0.1
+                   , cipher-aes >= 0.2 && < 0.3
+                   , cipher-blowfish >= 0.0 && < 0.1
+                   , cipher-des >= 0.0 && < 0.1
+                   , cipher-camellia >= 0.0 && < 0.1
+                   , cipher-rc4 >= 0.1 && < 0.2
                    -- public key cryptography
-                   , crypto-numbers
-                   , crypto-pubkey-types
-                   , crypto-pubkey
+                   , crypto-numbers >= 0.2 && < 0.3
+                   , crypto-pubkey-types >= 0.4 && < 0.5
+                   , crypto-pubkey >= 0.2 && < 0.3
                    -- hash
-                   , cryptohash
-                   , siphash
+                   , cryptohash >= 0.9 && < 0.12
+                   , siphash >= 1.0 && < 1.1
                    -- ASN.1
-                   , asn1-encoding
-                   , asn1-types
+                   , asn1-data >= 0.7 && < 0.8
+                   , asn1-encoding >= 0.8 && < 0.9
+                   , asn1-parse >= 0.8 && < 0.9
+                   , asn1-types >= 0.2 && < 0.3
                    -- X.509
-                   , x509
-                   , x509-store
-                   , x509-system
-                   , x509-validation
+                   , x509 >= 1.4 && < 1.5
+                   , x509-store >= 1.4 && < 1.5
+                   , x509-system >= 1.4 && < 1.5
+                   , x509-validation >= 1.4 && < 1.5
   Exposed-modules:   Crypto.Platform
 
 source-repository head
