@@ -41,8 +41,6 @@ Library
                    , cprng-aes >= 0.5 && < 0.6
                    -- symmetric ciphers
                    , crypto-cipher-types >= 0.0 && < 0.1
-                   , crypto-cipher-benchmarks >= 0.0 && < 0.1
-                   , crypto-cipher-tests >= 0.0 && < 0.1
                    , cipher-aes >= 0.2 && < 0.3
                    , cipher-blowfish >= 0.0 && < 0.1
                    , cipher-des >= 0.0 && < 0.1
